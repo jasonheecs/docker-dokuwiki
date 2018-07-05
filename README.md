@@ -1,5 +1,6 @@
 # Docker Image for a private Dokuwiki
-A modified Docker image of the [Bitnami Dokuwiki image](https://github.com/bitnami/bitnami-docker-dokuwiki), meant for using Dokuwiki as a private wiki. Modifications include allowing for url rewriting via .htaccess and modifying robots.txt.
+A modified Docker image of the [Bitnami Dokuwiki image](https://github.com/bitnami/bitnami-docker-dokuwiki), meant for using Dokuwiki as a private wiki. Modifications include allowing for url rewriting via .htaccess and fixing the symlinks to allow for the [CKEditor plugin](https://www.dokuwiki.org/plugin:ckgedit) to work.
+
 ## Usage
 ```
 docker pull jasonheecs/dokuwiki
