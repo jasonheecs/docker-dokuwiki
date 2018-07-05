@@ -1,5 +1,5 @@
 # Docker Image for a private Dokuwiki
-A modified Docker image of the [Bitnami Dokuwiki image](https://github.com/bitnami/bitnami-docker-dokuwiki), meant for using Dokuwiki as a private wiki. Modifications include allowing for url rewriting via .htaccess and disabling search crawlers via robots.txt
+A modified Docker image of the [Bitnami Dokuwiki image](https://github.com/bitnami/bitnami-docker-dokuwiki), meant for using Dokuwiki as a private wiki. Modifications include allowing for url rewriting via .htaccess and disabling search crawlers via robots.txt. [Docker Hub Link](https://hub.docker.com/r/jasonheecs/docker-dokuwiki/)
 
 ## Usage
 ```
