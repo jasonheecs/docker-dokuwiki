@@ -1,2 +1,19 @@
-User-agent: *
+User-agent: Titan
 Disallow: /
+
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: EmailWolf
+Disallow: /
+
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: *
+Disallow: /doku.php?id=playground
+Disallow: /doku.php?id=playground:playground
+Disallow: /playground

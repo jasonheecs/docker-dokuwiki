@@ -1,6 +1,5 @@
 # Docker Image for a private Dokuwiki
-A modified Docker image of the [Bitnami Dokuwiki image](https://github.com/bitnami/bitnami-docker-dokuwiki), meant for using Dokuwiki as a private wiki. Modifications include allowing for url rewriting via .htaccess and disabling search crawlers via robots.txt. [Docker Hub Link](https://hub.docker.com/r/jasonheecs/docker-dokuwiki/)
-
+A modified Docker image of the [Bitnami Dokuwiki image](https://github.com/bitnami/bitnami-docker-dokuwiki), meant for using Dokuwiki as a private wiki. Modifications include allowing for url rewriting via .htaccess and modifying robots.txt.
 ## Usage
 ```
 docker pull jasonheecs/dokuwiki
@@ -44,3 +43,9 @@ AddType application/x-httpd-php .php
 ```
 
 Then enable the url rewriting option in the configuration manager as [documented on the wiki](https://www.dokuwiki.org/rewrite).
+
+## Example wiki
+https://wiki.jasonhee.com
+
+## Docker Hub
+[Docker Hub Link](https://hub.docker.com/r/jasonheecs/dokuwiki/)
