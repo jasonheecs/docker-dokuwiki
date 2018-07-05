@@ -10,7 +10,8 @@ if [[ "$1" == "nami" && "$2" == "start" ]] || [[ "$1" == "/init.sh" ]]; then
   info "Starting dokuwiki... "
 fi
 
-mkdir -p /bitnami/dokuwiki && ln -s /opt/bitnami/dokuwiki/inc/ /bitnami/dokuwiki/
+mkdir -p /bitnami/dokuwiki && ln -sf /opt/bitnami/dokuwiki/inc/ /bitnami/dokuwiki/
 chown -R daemon:daemon /bitnami/dokuwiki/inc
+chmod 0644 /opt/bitnami/dokuwiki/.htaccess
 
 exec tini -- "$@"
